@@ -47,8 +47,11 @@ To enable DockerHub deployment:
 Clone the repo and start the app locally:
 
 git clone https://github.com/your-username/nodejs-cicd-app.git
+
 cd nodejs-cicd-app
+
 npm install
+
 npm start
 
 ---
@@ -59,5 +62,6 @@ You can run the app locally using Docker:
 
 
 docker build -t your-dockerhub-username/nodejs-cicd-app .
+
 docker run -p 3000:3000 your-dockerhub-username/nodejs-cicd-app
 
