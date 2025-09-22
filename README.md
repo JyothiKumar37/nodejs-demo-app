@@ -8,17 +8,11 @@ A simple Node.js application is containerized using Docker and deployed to **Doc
 ## 📂 Project Structure
 
 nodejs-cicd-app/
-
 ├── app.js # Sample Node.js app
-| 
 ├── package.json # Node.js dependencies
-| 
 ├── Dockerfile # Docker container setup
-| 
 └── .github/
-|
 └── workflows/
-|
 └── main.yml # GitHub Actions pipeline
 
 ---
